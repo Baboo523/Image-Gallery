@@ -2,9 +2,11 @@
     margin: 0;
     padding:0;
     font-family: sans-serif;
+    margin-top: -17px;
 }
 body{
     background: #ecf4fb;
+    
 }
 .img-gallery
 {
@@ -32,9 +34,10 @@ body{
    position: fixed;
    top:0;
    left:0;
-   display: flex;
+   display: none ;
    align-items: center;
    justify-content: center;
+   z-index:100;
 }
 .full-img img{
     width: 90%;
